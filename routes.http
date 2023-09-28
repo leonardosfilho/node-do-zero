@@ -14,15 +14,15 @@ GET http://localhost:3333/videos
 
 ###
 
-PUT http://localhost:3333/videos/
+PUT http://localhost:3333/videos/f86342ea-f25d-4378-abce-7c4746c89d04
 Content-type: application/json
 
 {
-    "title": "Video 02",
+    "title": "Video do 10esqd",
     "description": "Esse e o meu primeiro video",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/
+DELETE http://localhost:3333/videos/f86342ea-f25d-4378-abce-7c4746c89d04
